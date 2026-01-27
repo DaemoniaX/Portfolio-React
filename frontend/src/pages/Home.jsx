@@ -11,6 +11,8 @@ import ZuulBadIcon from "../icons/ZuulBad-icon.png";
 import backendIcon from "../icons/backend-icon.png";
 
 function Home() {
+  const baseUrl = import.meta.env.BASE_URL;//pour github pages sinon ca n'ouvre pas mes pages
+
   const [searchQuery, setSearchQuery] = useState("");
   const { favorites } = useFavorites();
 
@@ -19,8 +21,8 @@ function Home() {
     { id: 2, name: "Graphs", icon: graphIcon },
     { id: 3, name: "ZuulBad", icon: ZuulBadIcon },
     { id: 4, name: "Backend", icon: backendIcon },
-    { id: 5, name: "JS Calculator", icon: JSCalculatorIcon, externalUrl: "/JSCalculator/index.html" },
-    { id: 6, name: "Angular Ecommerce App", icon: angularEcommerceIcon, externalUrl: "/mon-shop/index.html" },
+    { id: 5, name: "JS Calculator", icon: JSCalculatorIcon, externalUrl: "${baseUrl}/JSCalculator/index.html" },
+    { id: 6, name: "Angular Ecommerce App", icon: angularEcommerceIcon, externalUrl: "${baseUrl}/mon-shop/index.html" },
     
   ];
 

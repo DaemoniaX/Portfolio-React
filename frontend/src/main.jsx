@@ -7,7 +7,7 @@ import { FavoritesProvider } from './contexts/FavoritesContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <FavoritesProvider>
         <App />
       </FavoritesProvider>
