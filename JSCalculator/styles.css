@@ -1,0 +1,63 @@
+/*CSS of index.html from @AntoninMarolleau 04/09/2025 */
+/*
+ChangeLog 04/09/2025 : fix : issue caused by having too much buttons, added scroll
+
+*/
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+#Calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 21%);
+    border-radius: 15px;
+    max-width: 500px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+    border: none;
+    background-color: hsl(0, 0%, 91%);
+    color: rgb(0, 0, 0);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 0.3cm;
+    gap: 10px;
+    padding: 25px;
+}
+button {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: rgb(47, 127, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.op{
+    background-color: rgb(187, 187, 187);
+}
+.clear1{
+    background-color: rgb(255, 170, 170);
+    
+}
+.eq{
+    background-color: rgb(122, 193, 132);
+}

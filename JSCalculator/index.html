@@ -1,0 +1,59 @@
+<!-- html of index.html from @AntoninMarolleau 04/09/2025 -->
+ <!--
+ChangeLog 04/09/2025 : change the weird expression that was showed on the display to a more readable one
+ChangeLog 04/09/2025 : add more buttons: sin-²
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="Calculator">
+        <input id="display"> <!--La barre d'écran peux etre en readonly avec l'option readonly--> 
+
+        <div id="keys">
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="clearDisplay()" class="clear1">C</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('+')" class="op">+</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('-')" class="op">-</button>
+            <button onclick="appendToDisplay('.')" class="op">.</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('/')" class="op">/</button>
+            <button onclick="appendToDisplay('*')" class="op">x</button>
+            <button onclick="appendToDisplay('(')" class="op">(</button>
+            <button onclick="appendToDisplay(')')" class="op">)</button>
+            <button onclick="appendToDisplay('√(', 'Math.sqrt(')" class="op">√</button>
+            <button onclick="calculate()" class="eq">=</button>
+            <button onclick="appendToDisplay('sin(', 'Math.sin(')" class="op">sin</button>
+            <button onclick="appendToDisplay('cos(', 'Math.cos(')" class="op">cos</button>
+            <button onclick="appendToDisplay('log(', 'Math.log10(')" class="op">log</button>
+            <button onclick="appendToDisplay('ln(', 'Math.log(')" class="op">ln</button>
+            <button onclick="appendToDisplay('^', '**')" class="op">xʸ</button>
+            <button onclick="appendToDisplay('π', 'Math.PI')" class="op">π</button>
+            <button onclick="appendToDisplay('e', 'Math.E')" class="op">e</button>
+            <button onclick="appendToDisplay('²', '**2')" class="op">x²</button>
+            <!-- that's a lot 0_0-->
+            
+        </div>
+
+
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
