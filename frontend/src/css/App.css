@@ -1,0 +1,25 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+  min-height: 100%;
+}
+
+#root {
+  background-color: #121212;
+}
+
+
+.main-content {
+  padding-top: 5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 4.25rem;
+  }
+}

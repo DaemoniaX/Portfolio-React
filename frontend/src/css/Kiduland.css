@@ -1,0 +1,66 @@
+/*Fonts généraux*/
+.Kiduland {
+    padding: 20px;
+    /*background-color: #f0f8ff;*/
+    box-sizing: border-box;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.Kiduland h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    /*color: #ff69b4;*/
+}
+
+.Kiduland p {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+/*Fin des fonts généraux*/
+
+/*La vidéo */
+.Video-container {
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Video-container video {
+  width: 100%;
+  height: auto;
+}
+
+/*fin de la vidéo */
+
+/*Les images*/
+.Image-container {
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/*fin des images*/
+
+
+/*Le séparateur*/
+.separator {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
