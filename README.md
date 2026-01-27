@@ -1,3 +1,6 @@
+Ce site est toujours en phase de développement, il n'était pas prévu que je le sorte aussi tôt en phase de développement. Vous y verrez plusieurs incohérences entre l'anglais et le français, pas/peu de doc.  
+J'ai encore besoin de mettre certaines choses sous components, je repasserai dessus.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

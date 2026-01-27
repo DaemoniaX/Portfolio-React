@@ -1,11 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
-  server: {
-    port: 5011, // 5011 port for frontend, forced for easier selenium testing
-  },
-  plugins: [react()],
-  base: '/Portfolio-React/',
+export default defineConfig(({ mode }) => {
+  return {
+    server: {
+      port: 5011, // pour faire des tests selenium
+    },
+    plugins: [react()],
+
+    base: mode === 'production' ? '/Portfolio-React/' : '/', // Pour GitHub Pages
+  }
 })
