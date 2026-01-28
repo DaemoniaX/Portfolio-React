@@ -277,7 +277,7 @@ function Graphs() {
   return (
     <div className="graphs-container">
       <header>
-        <h1>Calculateur d'intérêts composés, codé par chatgpt, issu de mon github mais que j'ai convertit en React.</h1>
+        <h1>Calculateur d'intérêts composés</h1>
         <p className="muted">Entrez le montant, le taux annuel, la durée et vos versements mensuels. 
           Il est issu de mon github mais je l'ai convertit en React et je me suis amusé avec le css pour le faire correspondre à mon thème.
         </p>

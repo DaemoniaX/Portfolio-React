@@ -33,9 +33,7 @@ function ZuulBad() {
   return (
     <div className="ZuulBad">
 
-        {/*blabla du dessus*/}
-        <h1>Projet Zuul Bad</h1>
-        <p>Voici quelques captures d'écran du jeu.</p>
+        <h1>Projet Zuul Bad E1, Lost or LOST?</h1>
 
         {/* CARROUSEL */}
         <div className="carousel-container">
@@ -68,6 +66,27 @@ function ZuulBad() {
 
           </Swiper>
         </div>
+
+        <p>
+          Lost or LOST? est un jeu au tour par tour textuel, mais qui possède des images.
+          Il a été réalisé en Java avec l'IDE BlueJ dans le cadre du cours de Programmation Orientée Objet durant ma 1ère année.
+          Réalisé tout seul, il est entièrement basé sur le guide du prof puisqu'il était interdit de s'en écarter.
+          C'était d'ailleurs pour ça que j'étais si énervé dans le README GitHub, car on ne pouvait pas faire ce qu'on voulait, 
+          même lorsque l'on écrivait des horreurs.
+          <br /><br />
+          Le but du jeu est de s'échapper d'un bâtiment en se déplaçant de pièce en pièce et en ramassant des objets.
+          On dispose d'images qui changent en fonction de chaque pièce, d'une sortie textuelle et d'une entrée textuelle où l'on entre les commandes de déplacement.
+          On était aussi supposé avoir accès à une minimap et à une grille de boutons évitant d'avoir à taper les commandes.
+          Malheureusement, ce projet n'a jamais été fini par manque d'intérêt.
+          La minimap, la grille, la fin et certaines images sont donc manquantes.
+          <br /><br />
+          Il est disponible sur mon GitHub ; comme d'habitude, j'ai laissé le GitHub originel pour montrer l'évolution.<br />
+          Par contre, ce projet nous a permis d'apprendre le "Clean Code" ainsi que la documentation DOXYGEN, et c'est un très bon point positif.
+          <br /><br />
+          Je suis aussi très content de ce carrousel, je pensais que ça allait être une horreur, mais en fait cela ne m'a pris que 30 min,
+          car il existe des packages. Le plus long, ça a été le tableau. En soi, vu le peu d'images et le fait qu'elles ne sont pas amenées à 
+          changer, ce n'était pas nécessaire, mais dans une idéologie de code propre, c'est mieux.
+        </p>
     </div>
   );
 }
