@@ -1,4 +1,5 @@
-import PanelCard from "../components/PanelCard";
+import SearchInput from "../components/SearchInput";
+import PanelGrid from "../components/PanelGrid";
 import { useState } from "react";
 import "../css/Home.css";
 import { useFavorites } from "../contexts/FavoritesContext.jsx";
@@ -18,6 +19,8 @@ function Home() {
 
     return `${baseUrl}${filename}`;
   };
+
+  //////////////////////////////////////////////////
 
   const [searchQuery, setSearchQuery] = useState("");
   const { favorites } = useFavorites();
@@ -43,42 +46,24 @@ function Home() {
     (p) => !favorites.includes(p.id)
   );
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <div className="home">
-      <form onSubmit={handleSearch} className="search-form">
-        <input
-          type="text"
-          placeholder="Search for panels..."
-          className="search-input"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-      </form>
 
-      {/* SECTION favorite */}
-      {favoritePanels.length > 0 && (
+      {/*search ba r*/}
+      <SearchInput value={searchQuery} onChange={setSearchQuery} />
+
+      {/* SECTION favorites */}
+      {favoritePanels.length > 0 && (//ça ne rend pas si propre avec les composants mais bon
         <div className="favorites-section">
           <h2>♥ Favorites</h2>
-          <div className={`panels-grid ${favoritePanels.length === 1 ? "single" : ""}`}>
-            {favoritePanels.map((p) => (
-              <PanelCard panel={p} key={`fav-${p.id}`} />
-            ))}
-          </div>
+          <PanelGrid panels={favoritePanels} />
         </div>
       )}
 
-      {/* SECTION other panels */}
+      {/* SECTION autres */}
       <div className="others-section">
         {favoritePanels.length > 0 && <h2>All Panels</h2>}
-        <div className={`panels-grid ${otherPanels.length === 1 ? "single" : ""}`}>
-          {otherPanels.map((p) => (
-            <PanelCard panel={p} key={`other-${p.id}`} />
-          ))}
-        </div>
+        <PanelGrid panels={otherPanels} />
       </div>
     </div>
   );
