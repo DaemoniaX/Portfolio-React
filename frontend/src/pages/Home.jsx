@@ -22,6 +22,9 @@ function Home() {
 
   //////////////////////////////////////////////////
 
+  /*
+  * Tout ce qui traite de la search bar
+  */
   const [searchQuery, setSearchQuery] = useState("");
   const { favorites } = useFavorites();
 
@@ -49,7 +52,7 @@ function Home() {
   return (
     <div className="home">
 
-      {/*search ba r*/}
+      {/*search bar*/}
       <SearchInput value={searchQuery} onChange={setSearchQuery} />
 
       {/* SECTION favorites */}

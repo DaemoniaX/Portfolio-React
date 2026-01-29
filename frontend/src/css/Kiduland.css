@@ -64,3 +64,8 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.p-purple {
+    color: #ff69b4;
+    font-weight: bold;
+}

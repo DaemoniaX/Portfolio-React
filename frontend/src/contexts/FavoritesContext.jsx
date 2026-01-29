@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from "react";
-
+/*C'est pour stocker les favoris et les passer via hook direct au component*/
 const FavoritesContext = createContext();
 
 export function useFavorites() {

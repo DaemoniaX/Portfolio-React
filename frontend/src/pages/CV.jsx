@@ -1,6 +1,23 @@
 import "../css/CV.css";
 import PicIcon from "../icons/photo_id.png";
 
+/*
+* Architecture du CV:
+* La div CV qui englobe le CV entier
+* -> La div CV-top qui contient le haut du CV (décoration)
+* -> La div CV-header qui contient la photo et le nom
+* -> La div CV-split qui contient les deux colonnes
+*    -> La div CV-column qui contient la colonne de gauche
+*    -> La div CV-right qui contient la colonne de droite
+*
+* Je me suis amusé avec les gap et margin pour faire les rectangles vert de mon CV canva.
+* C'est plus une vitrine de ce que je sais faire en CSS qu'autre chose, et j'ai du mettre 1semaine dessus je crois(en parallèle).
+*
+* Il y a du CSS intégré dans le JSX pour éviter de mettre des classes partout, je trouve ça plus lisible de mettre des cas particulers
+* directement dans le JSX et laisser dans le CSS les styles globaux.
+*/
+
+
 function CV() {
   return (
     <div className="CV">
@@ -14,10 +31,7 @@ function CV() {
 
       <div className="CV-header">
         <div className="CV-photo-container">
-          <img
-            src={PicIcon}
-            alt="Photo de profil"
-          />
+          <img src={PicIcon} alt="Photo de profil"/>
         </div>
         <div className="CV-name">
           <h2>Ingénieur ESIEE Paris <br /> Filière Informatique (FI) et applications</h2>
@@ -30,7 +44,7 @@ function CV() {
         <div className="CV-column">
   
           <div className="section">
-            <h2>Antonin MAROLLEAU</h2>
+            <h2>Antonin MAROLLEAU</h2>{/*le target et le rel viennent de pair*/}
             <a href="https://github.com/DaemoniaX" target="_blank" rel="noreferrer">Github</a>
             <br />
             <a href="https://www.linkedin.com/in/antonin-marolleau-7b5497339" target="_blank" rel="noreferrer">Linkedin</a>
@@ -44,6 +58,7 @@ function CV() {
             <p>77400 Lagny-sur-Marne</p>
           </div>
 
+          {/*ici, on aurait pû faire un composant*/}
           <div className="section">
             <h2>PROGRAMMATION</h2>
             <ul className="skills-list">

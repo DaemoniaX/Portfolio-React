@@ -9,7 +9,7 @@ function Kiduland() {
         <h1>Kiduland</h1>
 
         <div className="separator">
-          <p style={{ color: "#ff69b4", fontWeight: "bold" }}> Qu'est-ce que c'est ? </p>
+          <p className="p-purple"> Qu'est-ce que c'est ? </p>
           <p>Ce jeu a été développé sur Unity 2D 2021.3.45f1 lors de mon année de terminale au lycée 2022-2023 puis 1-2 fois par an durant <br />
             ma première et 2ème année, les études m'empêchant de réellement plonger dans le développement. C’est un jeu qui est basé sur le <br /> 
             modèle de Kirby’s return to dream land et Mario. Il est donc de type platformer 2D où le joueur peut affronter des ennemis sur différents niveaux. <br /> 
@@ -24,7 +24,7 @@ function Kiduland() {
         </div>
 
         <div className="separator">
-          <p style={{ color: "#ff69b4", fontWeight: "bold" }}> Quel est l'environnement ? </p>
+          <p className="p-purple"> Quel est l'environnement ? </p>
           <p>J'ai utilisé Unity 2D 2021.3.45f1, il utilise le principe de tiles, et a été <br /> 
             build pour Windows et Android. Malheureusement, j'avais utilisé une passerelle <br />
              de mises à jour, qui n'est aujourd'hui plus maintenue, empêchant l'installation sur Windows. <br />
@@ -38,7 +38,7 @@ function Kiduland() {
         </div>
 
         <div className="separator">
-          <p style={{ color: "#ff69b4", fontWeight: "bold" }}> Le gameplay </p>
+          <p className="p-purple"> Le gameplay </p>
           <p>5 niveaux, des checkpoints, des vies, des pièces à collecter, du heal. <br />
             Plusieurs mécaniques comme des portes, des boutons, un trampoline, l'aspiration de "cubes pour recharger le mana", de quoi tirer sur les <br />
             ennemis en consommant du mana.
@@ -56,7 +56,7 @@ function Kiduland() {
         </div>
 
         <div className="separator">
-          <p style={{ color: "#ff69b4", fontWeight: "bold" }}> Où en est le projet ? </p>
+          <p className="p-purple"> Où en est le projet ? </p>
           <p>
             Honnêtement, il est à l'arrêt et il ne reprendra probablement jamais. J'ai appris énormément de choses en le développant, <br />
             mais je me suis rendu compte que... bah c'était un boulot à plein temps, et que de vouloir sortir ce jeu avec +100 niveaux <br />

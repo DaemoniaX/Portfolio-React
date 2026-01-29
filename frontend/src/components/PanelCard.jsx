@@ -27,7 +27,7 @@ function PanelCard({ panel }) {
 
   return (
     <div className="panel-card" onClick={handleClick}>
-      <div className="panel-poster">
+      <div className="panel-image">
         <img src={panel.icon} alt={`${panel.name} icon`} />
       </div>
       

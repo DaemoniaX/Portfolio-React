@@ -1,5 +1,114 @@
-Ce site est toujours en phase de développement, il n'était pas prévu que je le sorte aussi tôt en phase de développement. Vous y verrez plusieurs incohérences entre l'anglais et le français, pas/peu de doc.  
-J'ai encore besoin de mettre certaines choses sous components, je repasserai dessus.
+# Portfolio React
+
+A modern React front-end built with JavaScript(JSX) on VITE. This project showcases a responsive Portfolio using hooks, contexts, components HTML/CSS and JavaScript.
+  
+**Website :**: [https://daemoniax.github.io/Portfolio-React/](https://daemoniax.github.io/Portfolio-React/)  
+
+## Table of Contents
+
+* [🔧 Installation](#-installation)
+* [💡 Usage](#-usage)
+* [✨ Features](#-features)
+* [🛠️ Tech Stack](#️-tech-stack)
+* [🤝 Contributing](#-contributing)
+* [✉️ Contact](#️-contact)
+* [📄 License](#-license)
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/DaemoniaX/Portfolio-React.git
+   cd Portfolio-React/frontend
+   ```
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+3. **Serve locally**
+
+   ```bash
+   npm run dev
+   ```
+
+> The application will run at `http://localhost:5011` by default.
+
+### Environment Variables
+
+Configure API endpoints in `src/environments/environment.ts`:
+
+```ts
+export const environment = {
+  production: false,
+  apiUrl: 'https://api.yourdomain.com'
+};
+```
+
+---
+
+## 💡 Usage
+
+* Navigate the product catalog
+* View product details
+* Add/remove items in the shopping cart
+* Proceed through the checkout flow
+
+Additional commands:
+
+* **Run unit tests**: `npm run test`
+* **Build for production**: `npm run build`
+
+---
+
+## ✨ Features
+
+* Favorite system
+
+* Dynamic research
+
+* Carrousel
+
+* Multi-frameworks integration: Hosting of Angular et Vanilla JS inside of the app.
+
+---
+
+## 🛠️ Tech Stack
+
+* **React** (v18) : Lib
+* **Vite** : Bundler
+* **Swiper.js** : Carrousel
+* **React Router** : Router
+* **Context API** : Favorite storage
+* **CSS3** : Design responsive
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Please feel free to:
+
+* Fork the repository
+* Create an issue for bugs or enhancements
+* Submit a pull request
+
+---
+
+## ✉️ Contact
+
+**Name**: Antonin Marolleau  
+**School**: ESIEE Paris – Integrated Engineering Program second year  
+**Email**: [antonin.marolleau@edu.esiee.fr](mailto:antonin.marolleau@edu.esiee.fr)  
+**LinkedIn**: [https://www.linkedin.com/in/antonin-marolleau-7b5497339](https://www.linkedin.com/in/antonin-marolleau-7b5497339)  
+
+---
+
+## 📄 License
+
+This project is licensed under the CC0 License.
 
 # React + Vite
 
