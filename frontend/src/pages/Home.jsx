@@ -10,6 +10,7 @@ import JSCalculatorIcon from "../icons/JSCalculator-icon.png";
 import angularEcommerceIcon from "../icons/Angular-icon.png";
 import ZuulBadIcon from "../icons/ZuulBad-icon.png";
 import backendIcon from "../icons/backend-icon.png";
+import ReactIcon from "../icons/react-icon.png";
 
 function Home() {
   const baseUrl = import.meta.env.BASE_URL;//pour github pages sinon ca n'ouvre pas mes pages
@@ -35,6 +36,7 @@ function Home() {
     { id: 4, name: "Backend", icon: backendIcon },
     { id: 5, name: "JS Calculator", icon: JSCalculatorIcon, externalUrl: getPath("JSCalculator/index.html") },
     { id: 6, name: "Angular Ecommerce App", icon: angularEcommerceIcon, externalUrl: getPath("mon-shop/index.html") },
+    { id: 7, name: "React", icon: ReactIcon },
   ];
 
   const filteredPanels = panels.filter((p) =>

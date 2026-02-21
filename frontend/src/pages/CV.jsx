@@ -52,10 +52,10 @@ function CV() {
 
           <div className="section">
             <h2>CONTACT</h2>
-            <a href="tel:+33782126491">07 82 12 64 91</a>
+            <a href="tel:+33782126491">07 ** ** ** 91</a>
             <br />
             <a href="mailto:antonin.marolleau@edu.esiee.fr">antonin.marolleau@edu.esiee.fr</a>
-            <p>77400 Lagny-sur-Marne</p>
+            <p>Noisy le Grand</p>
           </div>
 
           {/*ici, on aurait pû faire un composant*/}
@@ -63,7 +63,7 @@ function CV() {
             <h2>PROGRAMMATION</h2>
             <ul className="skills-list">
               <li>Java, C#, Python, C, SQL</li>
-              <li>VHDL 2008, JavaScript</li>
+              <li>VHDL 2008, JS, HTML, CSS</li>
               <li>Angular (Framework)</li>
               <li>React (JSX Vite)</li>
             </ul>
@@ -129,16 +129,19 @@ function CV() {
           <p>-Fonctions, prefab, platformer 2D, UI, orienté objet</p>
 
           <p style={{ textDecoration: "underline", marginTop: "0.5rem" }}>Projet jeu en <strong>Java</strong> de 1ère année :</p>
-          <p>-classes test, clean code, développement sous contraintes</p>
+          <p>-classes test, clean code DOXYGEN, développement sous contraintes</p>
 
           <p style={{ textDecoration: "underline", marginTop: "0.5rem" }}>Chatbot en <strong>Python</strong> :</p>
           <p>-Ollama, VsCode, template, Instruction-based </p>
 
           <p style={{ textDecoration: "underline", marginTop: "0.5rem" }}>E-commerce frontend en  <strong>Angular</strong> sur <strong>Docker</strong>:</p>
-          <p>-components, signals API,  tailwind css(framework), docker image & build</p>
+          <p>-components, signals API,  tailwind css(framework) docker image & build, Typescript(TS) </p>
 
           <p style={{ textDecoration: "underline", marginTop: "0.5rem" }}>Angular Backend <strong>.NET</strong>:</p>
-          <p>-WebAPI, ASP.NET Core Project, Postman,  Microsoft SQL Server</p>
+          <p>-WebAPI, ASP.NET Core Project, Postman,  Microsoft SQL Server, json, C#</p>
+
+          <p style={{ textDecoration: "underline", marginTop: "0.5rem" }}>Portfolio en <strong>React</strong>:</p>
+          <p>-components, signals API,  tailwind css(framework) docker image & build, Typescript(TS) </p>
           
 
           <h1 className="titre-formation">EXPERIENCES</h1>

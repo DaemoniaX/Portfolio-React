@@ -11,6 +11,7 @@ import Kiduland from './pages/Kiduland.jsx'
 import NavBar from './components/NavBar.jsx'
 import Backend from './pages/Backend.jsx'
 import ZuulBad from './pages/ZuulBad.jsx'
+import React from './pages/React.jsx'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/kiduland' element={<Kiduland />} />
           <Route path='/backend' element={<Backend />} />
           <Route path='/zuulbad' element={<ZuulBad />} />
+          <Route path='/react' element={<React />} />
         </Routes>
       </main>
     </div>
