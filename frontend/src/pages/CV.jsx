@@ -141,7 +141,7 @@ function CV() {
           <p>-WebAPI, ASP.NET Core Project, Postman,  Microsoft SQL Server, json, C#</p>
 
           <p style={{ textDecoration: "underline", marginTop: "0.5rem" }}>Portfolio en <strong>React</strong>:</p>
-          <p>-components, signals API,  tailwind css(framework) docker image & build, Typescript(TS) </p>
+          <p> JavaScript VITE(JSX), HTML/CSS, SPA, Hook, Context, Automatisation des tests Selenium</p>
           
 
           <h1 className="titre-formation">EXPERIENCES</h1>
