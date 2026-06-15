@@ -1,0 +1,33 @@
+.page {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+.page p {
+  color: white;
+}
+
+.page ul, ol {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.page h2, h1 {
+  color: #0016dd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+pre {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+pre code {
+  color: #d4d4d4;
+  font-size: 0.9rem;
+}

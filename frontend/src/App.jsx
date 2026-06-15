@@ -12,6 +12,7 @@ import NavBar from './components/NavBar.jsx'
 import Backend from './pages/Backend.jsx'
 import ZuulBad from './pages/ZuulBad.jsx'
 import React from './pages/React.jsx'
+import Scripting from './pages/Scripting.jsx'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/backend' element={<Backend />} />
           <Route path='/zuulbad' element={<ZuulBad />} />
           <Route path='/react' element={<React />} />
+          <Route path='/scripting' element={<Scripting />} />
         </Routes>
       </main>
     </div>
